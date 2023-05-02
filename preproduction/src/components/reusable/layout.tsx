@@ -1,10 +1,14 @@
 import * as React from 'react';
 import './layout.scss';
 
-export default function Layout () {
+type LayoutProps = {
+  children: React.ReactNode
+}
+
+export default function Layout ({children} : LayoutProps) {
     return (
     <div className="Layout">
-
+      {children}
     </div>
   );
   
