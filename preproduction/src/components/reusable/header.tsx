@@ -4,8 +4,8 @@ function Header(){
     return(
         <div className='header'>
         <header>
-            <p>Amgen Logo</p>
-            <p>AOH Digital Control Tower</p>
+            <p className='amgen-logo' >Amgen Logo</p>
+            <p className='dct' >AOH Digital Control Tower</p>
         </header>
         </div>
     );

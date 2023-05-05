@@ -1,3 +1,40 @@
 .header{
     height: 50px;
 }
+
+.dct{
+    /* | AOH Digital Control Tower */
+    position: absolute;
+    // width: 916px;
+    // height: 85px;
+    // left: 338px;
+    // top: 29px;
+
+    // font-weight: 100;
+    // font-size: 70px;
+    // line-height: 85px;
+    /* identical to box height */
+    /* Primary/Blue */
+    font-style: normal;
+    font-family: 'Inter';
+    color: #0063C3;
+    width: 250px;
+    height: 50px;
+    left: 100px;
+    top: 2px;
+    font-weight:100;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+
+.amgen-logo{
+    /* amgen-logo-blue */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+   // background: url(amgen-logo-blue);
+}
