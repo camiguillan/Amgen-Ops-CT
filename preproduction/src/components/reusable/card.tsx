@@ -1,3 +1,5 @@
+import './card.scss';
+
 type CardProps = {
     title: string,
     classId: string ,
