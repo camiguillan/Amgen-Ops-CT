@@ -7,25 +7,58 @@
 }
 
 .cbi{
-    width: $width-755;
-    height: $height-73;
-    left: $left-90;
-    top: $top-198;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 873px;
+    height: 1125px;
+    left: 44px;
+    top: 160px;
+    
+    /* Greyscale/100 */
+    
+    background: #FFFFFF;
+    /* Greyscale/300 */
+    
+    border: 3px solid #E3E3E3;
+    border-radius: 20px;
 
 }
 
 .cs{
-    width: $width-755;
-    height: $height-73;
-    left: $left-90;
-    top: $top-198;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1968px;
+    height: 1125px;
+    left: 987px;
+    top: 160px;
+    
+    /* Greyscale/100 */
+    
+    background: #FFFFFF;
+    /* Greyscale/300 */
+    
+    border: 3px solid #E3E3E3;
+    border-radius: 20px;
 
 }
 
 .upl{
-    width: 900px;
-    height: $height-73;
-    left: $left-90;
-    top: $top-198;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 778px;
+    height: 1125px;
+    left: 2992px;
+    top: 160px;
+    
+    /* Greyscale/100 */
+    
+    background: #FFFFFF;
+    /* Greyscale/300 */
+    
+    border: 3px solid #E3E3E3;
+    border-radius: 20px;
 
 }
