@@ -1,12 +1,14 @@
 import './header.scss';
 
-function Header(){
+type HeaderProps = {
+    title1: String;
+    title2: String; 
+  }
+
+function Header({title1,title2}: HeaderProps){
     return(
         <div className='header'>
-        <header>
-            <p className='amgen-logo' >Amgen Logo</p>
-            <p className='dct' >AOH Digital Control Tower</p>
-        </header>
+            <p className='dct' > <span style={{fontWeight: 'bold'}}>{title1}</span>{` ${title2}`}</p>
         </div>
     );
 }

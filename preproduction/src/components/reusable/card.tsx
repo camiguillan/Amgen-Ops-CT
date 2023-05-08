@@ -8,9 +8,9 @@ type CardProps = {
 
 function Card({title,classId}: CardProps){
     return(
-        <div className='card'>
-            <div className={classId} > 
-            <p>{title}</p>
+        <div className={`card ${classId}`}>
+            <div className='card-header'>
+                <p>{title}</p>
             </div>
         </div>
     );

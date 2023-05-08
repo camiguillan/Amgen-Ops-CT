@@ -5,7 +5,7 @@ import Header from '../../components/reusable/header';
 function PreProduction(){
  return(
     <Layout >
-        <Header></Header>
+        <Header title1={"AOH"} title2={"Digital Control Tower"}/>
         <Container/>
     </Layout>
 

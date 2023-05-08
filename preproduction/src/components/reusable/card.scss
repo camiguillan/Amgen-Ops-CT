@@ -2,18 +2,33 @@
 
 .card{
     background-color: white;
+    position: absolute; 
+}
+
+.card-header{
     position: absolute;
+    width: 755px;
+    height: 73px;
+    left: 46px;
+    top: 38px;
+    p{
+        margin: 0;
+        font: 'Inter';
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 72.61px;
+    }
     
 }
 
 .cbi{
     box-sizing: border-box;
-
     position: absolute;
     width: 873px;
     height: 1125px;
     left: 44px;
     top: 160px;
+
     
     /* Greyscale/100 */
     
@@ -27,7 +42,7 @@
 
 .cs{
     box-sizing: border-box;
-
+    margin: 0;
     position: absolute;
     width: 1968px;
     height: 1125px;
@@ -46,7 +61,7 @@
 
 .upl{
     box-sizing: border-box;
-
+    margin: 0;
     position: absolute;
     width: 778px;
     height: 1125px;
