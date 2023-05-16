@@ -12,3 +12,14 @@
     top: 51px;
     margin: 0px;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 3600px;
+    height: 1150px;
+    position: relative;
+    // justify-content: space-evenly;
+    gap: 70px;
+    top: 160px;
+}
