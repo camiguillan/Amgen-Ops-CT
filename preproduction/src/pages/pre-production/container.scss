@@ -36,18 +36,32 @@
 }
 
 .flex-grow-1{
-    flex: 1 1 1 !important;
+    flex: 1 1 auto !important;
 }
 
 .flex-grow-2{
-    flex: 2 2 auto !important;
+    flex: 20 20 auto !important;
 }
 
 .card-container{
     display: flex;
     flex: 1 1 auto;
+    width: 850px;
+    height: 100%;
+    p{
+        margin: 10px;
+        font-size: 60px;
+    }
 }
 
 .full-flex{
     flex: 1 1 auto;
+}
+
+.subtitle{
+    font-size: 40px !important;
+}
+
+.metric-card-module__ops-metric-card___-OHnp {
+    border-radius: 20px !important;
 }

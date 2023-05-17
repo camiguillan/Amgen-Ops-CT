@@ -7,10 +7,10 @@ function Page_Container() {
     return(
         <div className='container'>
             <div className='card-container flex-grow-1'>
-                <MetricCard className="mx-2 full-flex" >
+                <MetricCard className="mx-2 full-flex ops-px-10" >
                     <React.Fragment key=".0">
                         <MetricCardHeader>
-                            <p className="ops-text-dark ops-fw-bold ops-fs-4">
+                            <p className="ops-text-dark ops-fw-bold">
                             Current Batch Information
                             </p>
                         </MetricCardHeader>
@@ -46,11 +46,11 @@ function Page_Container() {
                 </MetricCard>
             </div>
             <div className='card-container flex-grow-2'>
-                <MetricCard className="mx-2 full-flex">
+                <MetricCard className="mx-2 full-flex ops-px-10">
                     <React.Fragment key=".0">
                         <MetricCardHeader className='d-flex justify-content-between align-items-center'>
-                            <p className="ops-text-dark ops-fw-bold ops-fs-4">Changeover Status</p>
-                            {/* <p className='cs-date'>As of 03/25 12:15pm</p> */}
+                            <p className="ops-text-dark ops-fw-bold">Changeover Status</p>
+                            <p className='ops-text-dark ops-fw-bold subtitle'>As of 03/25 12:15pm</p>
                         </MetricCardHeader>
                         <TextMetric
                                     fields={[
@@ -84,10 +84,10 @@ function Page_Container() {
                 </MetricCard>
             </div>
             <div className='card-container flex-grow-1'>
-                <MetricCard className="mx-2 full-flex">
+                <MetricCard className="mx-2 full-flex ops-px-10">
                     <React.Fragment key=".0">
                         <MetricCardHeader>
-                            <p className="ops-text-dark ops-fw-bold ops-fs-4">Upcoming Lots</p>
+                            <p className="ops-text-dark ops-fw-bold">Upcoming Lots</p>
                         </MetricCardHeader>
                         <TextMetric
                             fields={[
