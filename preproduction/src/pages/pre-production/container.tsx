@@ -1,22 +1,20 @@
 import React from 'react';
 import './container.scss';
-import { MetricCardHeader, TextMetric, Container as Cont, MetricCard } from '@gitlab-rtsensing/component-library';
-import MetricCardContent from '@gitlab-rtsensing/component-library/lib/components/elements/metric-card/metric-card-content';
+import { MetricCardHeader, MetricCard, TextMetric } from '@gitlab-rtsensing/component-library';
 
 
 function Container() {
     return(
         <div className='container'>
-            <Cont className='flex-grow-1 '>
-                <MetricCard className="mx-2 " >
+            <div className='flex-grow-1'>
+                <MetricCard className="mx-2" >
                     <React.Fragment key=".0">
                         <MetricCardHeader>
                             <p className="head ops-text-dark">
                             Current Batch Information
                             </p>
                         </MetricCardHeader>
-                        <MetricCardContent>
-                            <TextMetric
+                        <TextMetric
                                 fields={[
                                     {
                                     alert: 'Green',
@@ -44,27 +42,24 @@ function Container() {
                                     }
                                 ]}
                                 />
-                        </MetricCardContent>
                     </React.Fragment>
                 </MetricCard>
-            </Cont>
-            <Cont className='flex-grow-1 align-items-stretch'>
+            </div>
+            <div className='flex-grow-2'>
                 <MetricCard className="mx-2">
                     <MetricCardHeader className='d-flex justify-content-between align-items-center'>
                         <p className="head ops-text-dark">Changeover Status</p>
                         <p className='cs-date'>As of 03/25 12:15pm</p>
                     </MetricCardHeader>
                 </MetricCard>
-            </Cont>
-            <Cont className='flex-grow-1 align-items-stretch'>
+            </div>
+            <div className='flex-grow-1'>
                 <MetricCard className="mx-2 ">
                     <MetricCardHeader>
-                        <p className="head ops-text-dark">
-                        Upcoming Lots
-                        </p>
+                        <p className="head ops-text-dark">Upcoming Lots</p>
                     </MetricCardHeader>
                 </MetricCard>
-            </Cont>
+            </div>
             
         </div>
     );
