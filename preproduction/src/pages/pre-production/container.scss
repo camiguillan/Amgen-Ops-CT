@@ -5,13 +5,28 @@
     line-height: 48px;
     font-feature-settings: "tnum" on, "onum" on;
     color: black;
-    position: absolute;
+    // position: absolute;
     width: 423px;
     height: 48px;
-    left: 1500px;
-    top: 51px;
-    margin: 0px;
+    // left: 1500px;
+    // top: 51px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
+
+// .container{
+//     display: flex;
+//     flex-direction: row;
+//     width: 3600px;
+//     height: 1150px;
+//     position: relative;
+//     // justify-content: space-evenly;
+//     gap: 70px;
+//     top: 160px;
+// }
 
 .container{
     display: flex;
@@ -20,6 +35,13 @@
     height: 1150px;
     position: relative;
     // justify-content: space-evenly;
-    gap: 70px;
     top: 160px;
+    align-items: stretch;
+
+    .head{
+        font-weight: 600;
+        font-size: 60px;
+        // line-height: 72.61px;
+        // position: absolute;
+    }
 }
